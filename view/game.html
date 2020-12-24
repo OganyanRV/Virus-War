@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <script src='/scripts/game.js'> </script>
+    <link href='/styles/main.css' rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        .wrapper {
+            display: grid;
+            width: 70vh;
+            height: 70vh;
+            margin: 0 auto 0;        
+        }
+
+        .cell {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div id="Status" style="font-family: 'JetBrains Mono', monospace; text-align: center; font-size: medium; margin-top: 5%; margin-bottom: 5%; " >
+        Ожидаем подключение другого игрока
+    </div>
+    <div>
+        <div id='playground' class='wrapper' onload="CreateField()" style="visibility: collapse;">
+    </div>
+    
+    </div>
+
+
+
+
+</body>
+
+</html>

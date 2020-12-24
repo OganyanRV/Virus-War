@@ -1,0 +1,84 @@
+body {
+    background-color:#B2DFDB;
+}
+.author {
+    font-family: 'JetBrains Mono', monospace;
+    text-align:right;
+
+}
+
+.title {    
+    font-size: 200%;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.buttonGame {
+    margin: 10% 40% 0;
+    height:10%;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0.5vh;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.buttonArch{
+    margin: 10% 40% 0;
+    height:10%;
+    width:20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0.5vh;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0 auto 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 60%;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #B3E5FC;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #81D4FA;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
