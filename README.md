@@ -11,17 +11,11 @@ In this version of game player 1 wins if player 2 has got no possible movements.
 To start the program you should:
 
 * Download node.js
-
 * Download and Install MySql && MySqlWorkbench
-
 * - npm install mysql --save 
-
 * - npm install express --save
-
 * - npm install wb --save 
-
 * Install my database with create_db.sql
-
 * To start the program do - node server.js
 
 ## Gratitude for the contribution
