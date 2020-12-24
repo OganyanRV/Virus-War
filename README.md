@@ -12,9 +12,9 @@ To start the program you should:
 
 * Download node.js
 * Download and Install MySql && MySqlWorkbench
-* - npm install mysql --save 
-* - npm install express --save
-* - npm install wb --save 
+* -npm install mysql --save 
+* -npm install express --save
+* -npm install wb --save 
 * Install my database with create_db.sql
 * To start the program do - node server.js
 
