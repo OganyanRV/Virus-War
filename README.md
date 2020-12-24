@@ -15,16 +15,13 @@ To start the program you should:
 * Download and Install MySql && MySqlWorkbench
 
 * ``` markdown
-  - npm install mysql --save
-  ```
-
+  - npm install mysql --save  ```
+  
 * ``` markdown
-- npm install express --save
-  ```
+- npm install express --save  ```
 
 * ```markdown
-- npm install wb --save 
-  ```
+- npm install wb --save   ```
 
 * Install my database with create_db.sql
 
